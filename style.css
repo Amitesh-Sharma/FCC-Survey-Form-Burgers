@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css2?family=Bangers&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+*{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1600728619239-d2a73f7aa541?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+      font-family: 'Crimson Pro', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color:#00000;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+  }
+@media screen and (max-width: 799px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1600728619239-d2a73f7aa541?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  }
+}
+#survey {
+  margin: auto;
+  max-width: 50%;
+  line-height: 1.5;
+  margin-bottom: 3%;
+}
+#title {
+  
+  font-size: 70px;
+}
+#description {
+  font-size: 30px;
+}
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+  #survey {
+    margin: auto;
+    max-width: 70%;
+    line-height: 1.5;
+    margin-bottom: 2%;
+  }
+   #title {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 799px) {
+  #survey {
+    margin: auto;
+    max-width: 90%;
+    line-height: 1.5;
+    margin-bottom: 2%;
+  }
+  #title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #description {
+    font-size: 20px;
+  }
+}
+#survey-form {
+  border-radius: 1%;
+  background: rgba(225, 207, 194, 0.6);
+  margin: 0em 25% 5% 25%;
+  padding: 2% 5% 3% 5%;
+}
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+  #survey-form {
+    margin: 0em 25% 4% 25%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 799px) {
+  #survey-form {
+    margin: 3% 0 4% 0;
+    font-size: 16px;
+  }
+} 
+input:focus {
+  color: red;
+}
+label {
+  display: block;
+  text-align: left;
+  font-family: inherit;
+  line-height: inherit;
+  margin: 2% 0 2% 0;
+}
+#number-label,
+#email-label,
+#name-label,
+#comment-label {
+  font-size: 22px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  height: 2em;
+  font-size: 16px;
+  margin: 3% 5% 3% 0;
+  letter-spacing: 0.5px;
+}
+select {
+  opacity: 60%;
+}
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+  input,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 799px) {
+  input,
+  select,
+  button {
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+  }
+}
+#comment {
+  width: 100%;
+  height: 20%;
+  font-size: 16px;
+  margin: 5% auto 3% auto;
+}
+@media screen and (max-width: 1300px) {
+  #number-label,
+  #email-label,
+  #name-label,
+  #comment-label {
+    font-size: 16px;
+  }
+  #comment {
+    width: 75%;
+    height: 20%;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
+::placeholder {
+  color: hsl(25, 34%, 25%);
+  font-weight: 550;
+  font-family: 'Bangers', cursive;
+  font-size: 16px;
+  opacity: 60%;
+  letter-spacing: 0.5px;
+}
+@media screen and (max-width: 1300px) and (min-width: 800px) {
+  ::placeholder {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 799px) {
+  ::placeholder {
+    font-size: 12px;
+  }
+}
+#dropdown {
+  color: hsl(25, 34%, 25%);
+  font-weight: 550;
+  font-family: "Bangers", cursive;
+}
+
+#submit {
+  cursor: pointer;
+  color: hsl(25, 34%, 25%);
+  font-weight: 550;
+  font-family: 'Bangers', cursive;
+  font-size: 22px;
+  max-width: 100%;
+  margin: 5% auto 3% auto;
+}
+footer {
+  margin: 0 auto;
+  text-color:white;
+}
+@media screen and (max-width: 1300px) {
+  footer {
+    font-size: 15px;
+    color:white;
+  }
+}
+#image{
+  width:300px;
+   box-shadow: 0 10px 20px rgba(0,0,1,1), 0 6px 6px rgba(0,0,0,1);
+  
+}
