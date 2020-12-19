@@ -1,0 +1,77 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+  <head>
+    <title>Survey form:FCC</title>
+<link rel="stylesheet" href="style.css">
+     <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+  </head>
+  <body>
+    <div id="survey">
+      <header>
+        <h1 id="title">Get the best Burgers.</h1>
+      <p id="description">Fill the form and get the best combination of Taste.</p>
+      </header>
+      <div id="main">
+ <figure id="img-div">
+   <image id="image" src="https://images.vexels.com/media/users/3/129607/isolated/preview/f526eafda1a791f4a93b1ad7c62161e5-burgers-logo-1-by-vexels.png" alt="A burger logo image"></image>
+   <figcaption id="img-caption">we have the best Burgers in the world</figcaption>
+   <figure>
+        <form id="survey-form">
+        <div class="elements">
+          <label id="name-label" for="name" >Name</label>
+          <input type="text" id="name-label" name="name" placeholder="Enter the name " class="input" required>
+        </div><br>
+          <div class="elements">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email-label" name="email" placeholder="Enter the E-mail" class="input" required>
+            </div><br>
+    <div class="elements">
+      <label id="qty-label" for="qty">Quantity<span class="optional">(must be greater than 1 burger.)</span></label>
+      <input type="number" id="qty-label" name="qty" min="1" max="30" placeholder="Choose the Quantity " class="input" required>
+      </div><br>
+          <div class="elements">
+            <label class="label" for="dropdown">Choose the type of patty!</in>
+            <select class="input" name="dropdown" id="dropdown">
+              <option ="">--select an option--</option>
+              <option value="normal-patty">Normal-patty</option>
+              <option value="schezwan-patty">Schezwan-patty</option>
+              <option value="paneer-patty">Paneer-patty</option>
+              <option value="double-paneer-patty">Double Paneer-patty</option>
+            </select>
+            </div >
+          <div class="elements">
+            <p>Choose the Bun</p>
+            <label for="multi" id="multi">
+              <input type="radio" id="multi" name="multi-whole" value="multi" class="bun">Multigrain</label>
+        <label for="whole-wheat" id="whole-wheat">
+              <input type="radio" id="whole-wheat" name="multi-whole" value="whole-wheat" class="bun">whole-wheat</label>
+          </div>
+          <div class="elements">
+            <p>what are your add-ons?<span class="optional">(check all you want.)</span></p>
+            <label>
+              <input type="checkbox" class="input-checkbox" name="add-ons" value="cheese">Cheese</label>
+            <label>
+              <input type="checkbox" class="input-checkbox" name="add-ons" value="lettuce">Lettuce</label>
+            <label>
+              <input type="checkbox" class="input-checkbox" name="add-ons" value="olives">Olives</label>
+            <label>
+              <input type="checkbox" class="input-checkbox" name="add-ons" value="jalapenos">Jalapenos</label>
+            <label>
+              <input type="checkbox" class="input-checkbox" name="add-ons" value="pickles">Pickles
+  <input type="text" id="other" name="other" placeholder="Enter your requests"> </label>
+            </div> 
+          <div class="elements">
+            <p>Any questions or suggestions? </p>
+            <textarea id="textarea" name="ask-me" placeholder="Enter your questions"></textarea>
+          <button type="submit" id="submit">SUBMIT</button>  
+          </div>
+            </form>    
+      <footer>
+      <p>Made by <a href="https://github.com/Amitesh-Sharma" id="survey" target="_blank"><u>Amitesh sharma</u></a></p>
+    </footer>
+     </div>
+  </body>
+  
+  
+  <html>
